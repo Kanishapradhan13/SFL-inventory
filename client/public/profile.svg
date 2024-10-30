@@ -1,0 +1,61 @@
+    <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="64"
+                  fill="none"
+                  viewBox="0 0 64 64"
+                >
+                  <ellipse
+                    cx="32.156"
+                    cy="32"
+                    fill="#FFC145"
+                    rx="31.844"
+                    ry="32"
+                  ></ellipse>
+                  <g mask="url(#mask0_326_11265)">
+                    <mask
+                      id="mask0_326_11265"
+                      style={{ maskType: "alpha" }}
+                      width="64"
+                      height="64"
+                      x="0"
+                      y="0"
+                      maskUnits="userSpaceOnUse"
+                    >
+                      <ellipse
+                        cx="32.156"
+                        cy="32"
+                        fill="#FFC145"
+                        rx="31.844"
+                        ry="32"
+                      ></ellipse>
+                    </mask>
+                    <g mask="url(#mask1_326_11265)">
+                      <mask
+                        id="mask1_326_11265"
+                        style={{ maskType: "alpha" }}
+                        width="64"
+                        height="64"
+                        x="0"
+                        y="0"
+                        maskUnits="userSpaceOnUse"
+                      >
+                        <ellipse
+                          cx="32.156"
+                          cy="32"
+                          fill="#FFC145"
+                          rx="31.844"
+                          ry="32"
+                        ></ellipse>
+                      </mask>
+                      <path
+                        fill="#4F4F4F"
+                        d="M52.06 67.813v-6.537c0-3.467-1.04-6.793-2.89-9.245-1.849-2.451-4.357-3.829-6.973-3.829H22.472c-2.616 0-5.124 1.378-6.974 3.83-1.85 2.451-2.888 5.777-2.888 9.244v6.537"
+                      ></path>
+                      <path
+                        fill="#fff"
+                        d="M32.332 38.313c5.447 0 9.863-4.427 9.863-9.888s-4.416-9.888-9.863-9.888c-5.447 0-9.862 4.427-9.862 9.888 0 5.46 4.415 9.888 9.862 9.888z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>

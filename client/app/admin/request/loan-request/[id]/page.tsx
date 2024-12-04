@@ -24,7 +24,7 @@ export default function Page({ params }: { params: { id: string } }) {
   };
   useEffect(() => {
     getRequestData();
-  }, []);
+  });
   return (
     <div className="my-14 lg:px-6 max-w-[95rem] mx-auto w-full flex flex-col gap-4">
       <div className="flex w-full flex-col">
@@ -55,7 +55,7 @@ export default function Page({ params }: { params: { id: string } }) {
               className="mb-8 sm:w-full md:w-1/2 lg:w-1/3 px-4"
               style={{ marginTop: "-100px" }}
             >
-              <img
+              <Image
                 src={requestData && requestData.item_id.image}
                 alt=""
                 style={{ maxWidth: "230px", maxHeight: "230px" }}

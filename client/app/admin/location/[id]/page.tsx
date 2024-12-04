@@ -26,7 +26,7 @@ export default function Page({ params }: { params: { id: string } }) {
       };
       useEffect(()=>{
         getLocationName()
-      }, [])
+      })
     return (
        
        <div className="my-6 lg:px-6 max-w-[95rem] mx-auto w-full flex flex-col gap-4">

@@ -76,7 +76,7 @@ export default function Page({ params }: { params: { id: string } }) {
 
   useEffect(() => {
     getItemDetails();
-  }, []);
+  });
   const handleDecrement = (e) => {
     e.preventDefault()
     if (count > minValue) {
